@@ -1,0 +1,48 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+
+# Ignore User-Specific files
+*.user
+*.rsuser
+*.suo
+.vscode/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore Visual Studio Code workspace
+.vscode/*
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore compiled DLL files
+*.dll
+*.exe
+*.so
+*.dylib
+*.class
+
+# Ignore EF Core Migrations
+Migrations/
+
+# Ignore EF Core model snapshots
+**/*_ModelSnapshot.cs
+
+# Ignore build results
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore local secrets and environment files
+.env
+secrets.json
+
+# Ignore Rider IDE files
+.idea/
+.idea/*
+.idea_modules/
+.idea_modules/*
